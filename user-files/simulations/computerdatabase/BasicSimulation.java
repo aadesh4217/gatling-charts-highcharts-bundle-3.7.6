@@ -25,7 +25,7 @@ headers.put("X-ORGANIZATION-ID", "89b474a3-17d9-41ff-8fb0-534bebdfb160");
 
 setUp(
   scn.injectOpen(
-    constantUsersPerSec(25).during(1000)
+    constantUsersPerSec(50).during(1000)
   ).protocols(httpProtocol)
 );
 }
