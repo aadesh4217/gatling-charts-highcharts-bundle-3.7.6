@@ -11,7 +11,7 @@ import static io.gatling.javaapi.jdbc.JdbcDsl.*;
 public class BasicSimulation2 extends Simulation{
 {
 HttpProtocolBuilder httpProtocol = http
-.baseUrl("https://agentx-logger.loadus1.ciscoccservice.com")
+.baseUrl("https://agentx-logger.intgus1.ciscoccservice.com")
 .inferHtmlResources(AllowList(), DenyList(".*\\.js", ".*\\.css", ".*\\.gif", ".*\\.jpeg", ".*\\.jpg", ".*\\.ico", ".*\\.woff", ".*\\.woff2", ".*\\.(t|o)tf", ".*\\.png", ".*detectportal\\.firefox\\.com.*"))
 ;
 
@@ -35,7 +35,7 @@ headers_0.put("Authorization", "YTdiYTEwZjctYzIxYy00YzhhLTgzN2ItNDQ4MDNhOGMxZmEy
 
 setUp(
   scn.injectOpen(
-atOnceUsers(500)
+atOnceUsers(5000)
   ).protocols(httpProtocol)
 );
 
