@@ -26,7 +26,7 @@ headers_0.put("cache-control", "no-cache, no-store, must-revalidate");
   ScenarioBuilder scn = scenario("Agentx health API load test")
   .repeat(5).on(
     exec(http("health API")
-    .get("/health")
+    .head("/health")
     .headers(headers_0))
     
 );
