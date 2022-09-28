@@ -11,7 +11,7 @@ import static io.gatling.javaapi.jdbc.JdbcDsl.*;
 public class BasicSimulation2 extends Simulation{
 {
 HttpProtocolBuilder httpProtocol = http
-.baseUrl("https://agentx.intgus1.ciscoccservice.com")
+.baseUrl("https://agentx.loadus1.ciscoccservice.com")
 .inferHtmlResources(AllowList(), DenyList(".*\\.js", ".*\\.css", ".*\\.gif", ".*\\.jpeg", ".*\\.jpg", ".*\\.ico", ".*\\.woff", ".*\\.woff2", ".*\\.(t|o)tf", ".*\\.png", ".*detectportal\\.firefox\\.com.*"))
 ;
 
@@ -24,7 +24,7 @@ headers_0.put("cache-control", "no-cache, no-store, must-revalidate");
 //   .headers(headers_0));
 
   ScenarioBuilder scn = scenario("Agentx health API load test")
-  .repeat(5).on(
+  .repeat(15).on(
     exec(http("health API")
     .head("/health")
     .headers(headers_0))
