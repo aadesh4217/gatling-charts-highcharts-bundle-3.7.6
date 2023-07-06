@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1687172420277,
+  "description": "",
+  "scenarios": ["Desktop APIs load test"],
+  "assertions": [
+
+  ]
+}

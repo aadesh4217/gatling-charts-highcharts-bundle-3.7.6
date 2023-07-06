@@ -1,0 +1,7 @@
+RUN	computerdatabase.BasicSimulation	basicsimulation	1687172213542	 	3.7.6
+USER	Desktop APIs load test	START	1687172214308
+REQUEST		agent-config api	1687172214329	1687172215179	OK	 
+USER	Desktop APIs load test	END	1687172215199
+USER	Desktop APIs load test	START	1687172215288
+REQUEST		agent-config api	1687172215289	1687172215965	OK	 
+USER	Desktop APIs load test	END	1687172215966

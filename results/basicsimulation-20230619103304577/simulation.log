@@ -1,0 +1,7 @@
+RUN	computerdatabase.BasicSimulation	basicsimulation	1687170784577	 	3.7.6
+USER	Desktop APIs load test	START	1687170785398
+USER	Desktop APIs load test	START	1687170786380
+REQUEST		agent-config api	1687170785420	1687170786423	KO	status.find.in([200, 209], 304), found 503
+USER	Desktop APIs load test	END	1687170786439
+REQUEST		agent-config api	1687170786380	1687170787308	KO	status.find.in([200, 209], 304), found 503
+USER	Desktop APIs load test	END	1687170787309

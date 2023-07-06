@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1688622499324,
+  "description": "Agent-config api test",
+  "scenarios": ["Desktop APIs load test"],
+  "assertions": [
+
+  ]
+}
