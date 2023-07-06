@@ -16,12 +16,12 @@ headers.put("Authorization", "Bearer eyJhbGciOiJSUzI1NiJ9.eyJjbHVzdGVyIjoiQTUyRC
 headers.put("X-ORGANIZATION-ID", "8ad468d2-23db-49eb-a21a-70a1c91747b3");
 
   ScenarioBuilder scn = scenario("Desktop APIs load test")
-    .exec(http("agent-config api")
-    .get("https://agentx-backend.loadus1.ciscoccservice.com/ab/api/cms/agent-config/ed16d63f-0f6c-4fb6-8034-a297d2337619?isMaerskEnabled=true")
+    .exec(http("agent-config idle-codes api")
+    .get("https://agentx-backend.loadus1.ciscoccservice.com/ab/api/cms/agent-config/idle-codes/ALL")
+    .headers(headers))
+    .exec(http("agent-config wrapup-codes api")
+    .get("https://agentx-backend.loadus1.ciscoccservice.com/ab/api/cms/agent-config/wrapup-codes/ALL")
     .headers(headers));
-    // .exec(http("desktop-layout api")
-    // .get("https://api.loadus1.ciscoccservice.com/organization/89b474a3-17d9-41ff-8fb0-534bebdfb160/desktop-layout/96fb4233-a9e6-45b7-bf81-9d1f40bd21f2")
-    // .headers(headers));
 
 setUp(
   scn.injectOpen(
