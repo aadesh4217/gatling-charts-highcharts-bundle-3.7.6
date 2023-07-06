@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1688624057303,
+  "description": "agent-config setup isMaerskEnabled=true[D[D[D[D[D[D[D[D[D[D[D",
+  "scenarios": ["Desktop APIs load test"],
+  "assertions": [
+
+  ]
+}
