@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1688631883796,
+  "description": "ep-dn-mapping maerskenabled true",
+  "scenarios": ["Desktop APIs load test"],
+  "assertions": [
+
+  ]
+}
