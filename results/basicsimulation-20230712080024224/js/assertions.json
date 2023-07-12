@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1689148824224,
+  "description": "Agent-config maersk enabled[C[C",
+  "scenarios": ["Desktop APIs load test"],
+  "assertions": [
+
+  ]
+}
