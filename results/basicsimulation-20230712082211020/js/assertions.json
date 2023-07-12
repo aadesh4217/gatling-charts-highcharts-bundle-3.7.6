@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1689150131020,
+  "description": "Maersk disabled[C",
+  "scenarios": ["Desktop APIs load test"],
+  "assertions": [
+
+  ]
+}
