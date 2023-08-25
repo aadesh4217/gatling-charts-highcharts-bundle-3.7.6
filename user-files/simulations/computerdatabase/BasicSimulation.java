@@ -17,7 +17,7 @@ headers.put("X-ORGANIZATION-ID", "8ad468d2-23db-49eb-a21a-70a1c91747b3");
 
   ScenarioBuilder scn = scenario("Desktop APIs load test")
     .exec(http("outdial-ani api")
-    .get("https://autobots-agentx-backend.loadus1.ciscoccservice.com/ab/api/cms/outdial-ani/21aeb0d5-2cd9-4068-8d5a-5c657ffce77a?isProjectionOutdialANIEnabled=false")
+    .get("https://autobots-agentx-backend.loadus1.ciscoccservice.com/ab/api/cms/outdial-ani/21aeb0d5-2cd9-4068-8d5a-5c657ffce77a?isProjectionOutdialANIEnabled=true")
     .headers(headers));
 
 setUp(

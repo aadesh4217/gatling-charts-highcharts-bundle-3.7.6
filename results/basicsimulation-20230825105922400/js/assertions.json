@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.BasicSimulation",
+  "simulationId": "basicsimulation",
+  "start": 1692961162400,
+  "description": "isProjectionOutdialANIEnabled=true",
+  "scenarios": ["Desktop APIs load test"],
+  "assertions": [
+
+  ]
+}
