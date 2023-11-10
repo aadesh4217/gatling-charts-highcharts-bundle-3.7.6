@@ -22,7 +22,7 @@ headers.put("X-ORGANIZATION-ID", "8ad468d2-23db-49eb-a21a-70a1c91747b3");
 
 setUp(
   scn.injectOpen(
-    constantUsersPerSec(50).during(1000)
+    constantUsersPerSec(25).during(1000)
   ).protocols(httpProtocol)
 );
 }
